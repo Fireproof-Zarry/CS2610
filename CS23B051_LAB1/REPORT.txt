@@ -1,0 +1,9 @@
+REPORT
+
+The commands used to inspect memory dump via spike debug mode are:
+1) reg 0 Y - outputs the value stored in the register Y.
+Y can be t0, t1, a0, a1, etc any of the registers.
+2) mem 0 ADDRESS - outputs the value stored in that ADDRESS
+3) until pc 0 Y - the commands are run until Y
+4) r - to run all commands till it exits
+5) enter - pressing enter runs one command
